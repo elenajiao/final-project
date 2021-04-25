@@ -1,0 +1,405 @@
+body{
+    max-width:1440px;
+    min-width:750px;
+    margin:auto;
+  }
+  
+  h1{
+    font-size:28px;
+    margin:5px 0px;
+    color:#3077b7;
+    font-family: Georgia;
+  }
+  
+  p{
+    font-size:16px;
+    line-height:36px;
+    font-family: Georgia;
+  }
+  
+  .bluebold{
+    color: #3077b6;
+    font-size:15px;
+    font-weight:bold;
+    margin: 0px 0px;
+    padding:0px 0px;
+    line-height:30px;
+  }
+  
+  h2{
+    color: #3077b6;
+    font-size:20px;
+    font-family: Georgia;
+  }
+  
+  .italic{
+    font-style:italic;
+    font-family: Georgia;
+    line-height:25px;
+  }
+  
+  .navbar{
+    display:flex;
+    background-color:#f4f6f7;
+    padding:20px 35px;
+    align-items:center;
+    
+  }
+  
+  .logo{
+    width:15%;
+    min-width:200px;
+  }
+  
+  .websections{
+    display:flex;
+    justify-content: space-around;
+    width:70%;
+    padding:0px 50px;
+    min-width:500px;
+  }
+  
+  .intro {
+    background-image: url("https://i.postimg.cc/ncbgXMww/careers-image.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:420px;
+    border-top: 1px solid #e3f3f5;
+    border-bottom: 1px solid #e3f3f5;
+    padding: 60px;
+  }
+  
+  .explorebutton{
+    background-color:#24275d;
+    margin:10px 0px;
+    height:35px;
+    color:white;
+    font-size:15px;
+    padding:20px 20px;
+    border-radius: 4px;
+    border: 0px;
+    border-bottom: 2.5px solid black;
+    font-family: Georgia;
+    transition:0.4s;
+    display:flex;
+    align-items:center;
+  }
+  
+  .explorebutton:hover{
+    background-color: rgba(26,118,187,0.8);
+    cursor:pointer;
+    transition:0.4s;
+  }
+  
+  .introtextbox{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    background-color:rgba(255, 255, 255, 0.93);
+    width:450px;
+    padding:4%;
+    margin-left:10px;
+    box-shadow: 0px 0px 1px #f4f8f9;
+    border-radius:1px;
+  }
+  
+  @media all and (max-width: 900px) {
+    .introtextbox {
+      width:30%;
+      padding:30px;
+      min-width:400px;
+    }
+  }
+    
+  .diversitysection{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:90px 70px;
+  }
+  
+  .diversitytext{
+    width:100%;
+    margin-right:25px;
+  }
+  
+  .sideimage{
+    width:40%;
+    max-width:500px;
+    height:auto;
+    max-height:300px;
+    border-radius: 4px;
+  }
+  
+  .ourculture{
+    background-color:#f4f8f9;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    border-top: 1px solid #e3f3f5;
+    border-bottom: 1px solid #e3f3f5; 
+    padding:90px 70px;
+  }
+  
+  .ourculturesub{
+    display:flex;
+    align-items:center;
+    padding:35px 0px;
+  }
+  
+  @media all and (max-width: 900px) {
+    .ourculturesub {
+    flex-direction:column;
+    }
+  }
+  
+  .ourculturetext{
+    width:100%;
+    max-width:100%;
+    margin-right:25px;
+  }
+  
+  .employeeperks{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding:90px 70px;
+  }
+  
+  .employeeperkstext{
+    width:100%;
+  }
+  
+  .epgraphics {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding-top:30px;
+    justify-content:center;
+  }
+  
+  .epiconbox {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color: #F3F8F9;
+    margin:15px;
+    height:160px;
+    width:20%;
+    padding:15px;
+    max-width:250px;
+  }
+  
+  .epiconbox:hover{
+    transition:0.4s;
+  background-color:#EAF6FA;
+  }
+  
+  @media all and (max-width: 900px) {
+    .epiconbox {
+      width:200px;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    .sectionthreesub {
+      flex-direction:column;
+      width:100%;
+      height:auto;
+    }
+  }
+  
+  @media all and (max-width: 900px) {
+    .sideimage {
+      max-height:225px;
+      width:auto;
+    }
+  }
+  
+  @media all and (max-width: 900px) {
+    .diversitysection{
+     flex-direction:column; 
+    }
+  }
+  
+  .icon{
+    width:100px;
+    height:auto;
+  }
+  
+  .workingatkraneshares{
+    text-align:center;
+    background-color:#f4f8f9;
+    border-top: 1px solid #e3f3f5;
+    border-bottom: 1px solid #e3f3f5;
+    padding: 90px 70px;
+    position:relative;
+  }
+  
+  .leftbutton, .rightbutton{
+    position:absolute;
+    padding:5px 15px;
+    border-radius:4px;
+    transition:0.4s;
+  }
+  
+  .leftbutton {
+    left:0px;
+  }
+  
+  .rightbutton{
+    right:0px;
+  }
+  
+  .quotediv{
+    text-align: center;
+    font-size:20px;
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .quotediv p{
+    font-size:22px;
+    font-style:italic;
+    width: 80%; 
+    display:none;
+  }
+  
+  .leftbutton:hover, .rightbutton:hover {
+    background-color: rgba(26,118,187,0.8);
+    color: white;
+    cursor:pointer;
+    transition:0.4s;
+  }
+  
+  .locations{
+    padding: 90px 70px;
+  }
+  
+  .imglocations{
+    width:100%;
+    border-radius: 4px;
+    padding-top:10px;
+  }
+  
+  .locationimgcaption{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:22%;
+    text-align:center;
+  }
+  
+  .locationboxes{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content:space-between;
+  }
+  
+  @media all and (max-width: 900px) {
+    .locationboxes {
+    flex-wrap:wrap;
+    justify-content:center;
+    }
+  }
+  
+  @media all and (max-width: 900px) {
+    .locationimgcaption{
+      width:300px;
+      margin:0px 20px 20px 0px;
+    }
+  }
+  
+  .quotediv .visible{
+    display:block;
+  }
+  
+  .invisible{
+    display:none;
+  }
+  
+  .center{
+    text-align:center;
+  }
+  
+  .apply{
+    flex-direction:column;
+    justify-content:center;
+    background-color:#f4f8f9;
+    border-top: 1px solid #e3f3f5;
+    border-bottom: 1px solid #e3f3f5;
+    padding: 90px 70px;
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-size:15px;
+  }
+  
+  input[type=submit] {
+    display:block;
+    justify-content:center;
+    width: 110px;
+    background-color: #24275d;
+    color: white;
+    padding: 14px 20px;
+    margin: 3% 44%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Georgia;
+    font-size:15px;
+    transition:0.4s;
+    border:0px;
+    border-bottom: 2.5px solid black;
+  }
+  
+  .submitbutton:hover{
+    transition:0.4s;
+    background-color: rgba(26,118,187,0.8);
+    text-align:center;
+  }
+  
+  footer{
+    background-color: #163056;
+    padding: 90px 70px;
+    color:#ADDBE7;
+    text-align:center;
+  }
+  
+  #textarea1, #the_content {
+    height:150px;
+    width:100%;
+    margin:10px 0px;
+    display:block;
+    border-radius: 4px;
+  }
+  
+  textarea, input[type="text"], select {
+    border: 1px solid black;
+    margin: 10px 0px;
+    width:100%;
+    height:auto;
+    border-radius: 4px;
+    color:grey;
+    border: 1px solid #B7CAE5;
+  }
+  
+  label {
+    color:#272660;
+  }
